@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+.select{
+  font-weight: bolder;
+  padding: 1em;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.total{
+  background-color: blue;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.main{
+  background-color: white;
+  width: 60%;
+  margin:auto;
+  display:grid;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center ;
+
+}
+.select-1{
+  padding: 1em 0;
+}
+.select-2{
+  border: 2px solid gainsboro;
+}
+input{
+ border-top: none;
+ border-left: none;
+ border-right: none;
+ padding: 0 3em;
+}
+select{
+  border-top: none;
+ border-left: none;
+ border-right: none;
+ border-bottom: 2px solid gray; 
+ 
+}
+.radio{
+  padding: 0 1em 1em 1em;
+  font-weight: bolder;
+}
+.radio-1{
+  margin: 0 0.5em;
+}
+.radio-2{
+  font-weight: bolder;
+  padding: 1em 1.5em;
+}
+.add{
+  text-align: right;
+}
+.add button{
+  border-radius:50px;
+  width: 80px;
+  height: 40px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type="text"],input[type="date"],input[type="time"],select{
+  width: 100%;
 }
